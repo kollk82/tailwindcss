@@ -1,13 +1,13 @@
 module.exports = {
-    purge: [],
+    purge: ['./src/**/*.html'],
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
             gridTemplateColumns: {
-                minmax: 'repeat(4, minmax(max-content, 1fr))',
+                minmax: 'repeat(4, min-content)',
             },
             gridTemplateRows: {
-                minmax: 'min-content min-content 1fr',
+                minmax: 'min-content min-content 6rem',
             },
             margin: {
                 xss: '.1rem',
