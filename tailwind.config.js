@@ -9,9 +9,6 @@ module.exports = {
             gridTemplateRows: {
                 minmax: 'min-content min-content 6rem',
             },
-            margin: {
-                xss: '.1rem',
-            },
         },
     },
     variants: {
